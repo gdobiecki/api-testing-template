@@ -6,7 +6,6 @@ import javax.xml.bind.Unmarshaller;
 import java.io.File;
 
 public class TestUtils<T> {
-
     private final Class<T> typeClass;
 
     public TestUtils(Class<T> typeClass) {
@@ -20,5 +19,4 @@ public class TestUtils<T> {
 
         return (T) unmarshaller.unmarshal(new File(path));
     }
-
 }

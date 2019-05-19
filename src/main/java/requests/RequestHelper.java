@@ -8,6 +8,7 @@ import static io.restassured.RestAssured.given;
 
 public class RequestHelper {
     private RequestSpecification requestSpecification;
+
     public RequestHelper(RequestSpecification requestSpecification) {
         this.requestSpecification = requestSpecification;
     }

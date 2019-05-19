@@ -16,8 +16,8 @@ public class SampleTest extends TestBase {
     public Object[][] postDataProvider() {
         AddNewPostPayload addNewPostPayload = testDataReader.getAddNewPostPayload();
 
-        return new Object[][] {
-                new Object[] {
+        return new Object[][]{
+                new Object[]{
                         addNewPostPayload
                 }
         };

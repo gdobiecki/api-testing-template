@@ -10,7 +10,6 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name = "root")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class TestDataReader {
-
     @XmlElement
     public AddNewPostPayload addNewPostPayload;
 
